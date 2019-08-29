@@ -27,14 +27,6 @@ def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   hash[key] 
 end
-hash {key  => 1}
-if hash["top hat"]
-  shipping_manifest["top hat"] += 1
-else
-  puts "Key not found!"
-end
-  
-
   
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
