@@ -25,8 +25,15 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  hash = { key => "Steve", "Tzvi" => key}
+  hash = { key => "Steve"}
   hash[key] 
+  if hash[key] = "Steve"
+    puts "Steve"
+  if else 
+    puts "Tzvi"
+  else
+    puts nil
+  end
 end
   
 
