@@ -28,7 +28,11 @@ def read_from_hash(hash, key)
   hash[key] 
 end
 hash {key  => 1}
-
+if shipping_manifest["top hat"]
+  shipping_manifest["top hat"] += 1
+else
+  puts "Key not found!"
+end
   
 
   
