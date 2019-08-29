@@ -29,7 +29,7 @@ def read_from_hash(hash, key)
   hash[key] 
   if hash[key] = "Steve"
     puts "Steve"
-  else 
+  else if hash[key] = "Tzvi"
     puts "Tzvi"
   else
     puts nil
