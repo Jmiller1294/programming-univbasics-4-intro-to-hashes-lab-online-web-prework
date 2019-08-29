@@ -25,15 +25,8 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  hash = { key}
-  hash[key] 
-  if hash[key] = "Steve"
-    puts "Steve"
-  else if hash[key] = "Tzvi"
-    puts "Tzvi"
-  else
-    puts nil
-  end
+  hash = { :name}
+  hash[:name] 
 end
   
 
