@@ -26,8 +26,7 @@ end
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   hash[:name] 
-  second_new_hash = Hash.new
-  second_new_hash[:name]
+  
 end
   
 
